@@ -1,0 +1,46 @@
+{
+ "primary_model": "rf",
+ "features": [
+  "age",
+  "female",
+  "bmi",
+  "waist_cm",
+  "sbp",
+  "dbp",
+  "pulse_pressure",
+  "total_chol",
+  "hdl_chol",
+  "non_hdl_chol",
+  "tc_hdl_ratio",
+  "hba1c",
+  "dm_duration_years",
+  "dm_diagnosed",
+  "insulin_use",
+  "oral_dm_med",
+  "htn_diagnosed",
+  "htn_med",
+  "chol_med",
+  "smoker_current",
+  "smoker_former",
+  "egfr",
+  "log_uacr",
+  "albuminuria"
+ ],
+ "tier_labels": [
+  "Low",
+  "Intermediate",
+  "High"
+ ],
+ "tier_cutpoints": [
+  0.04215401742096786,
+  0.1206449392696699
+ ],
+ "horizon_years": 10,
+ "seed": 42,
+ "thresholds": {
+  "logreg": 0.08309619848208553,
+  "rf": 0.08265383780789282,
+  "xgb": 0.09998927265405655,
+  "age_only": 0.08587757774390221
+ }
+}

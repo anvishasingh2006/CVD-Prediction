@@ -1,0 +1,4 @@
+risk_10y_cv_death,tier,top_drivers
+0.006899198628115741,Low,age=45.0 (-); log_uacr=2.1 (-); egfr=98.0 (-)
+0.04723085390962822,Intermediate,age=63.0 (-); egfr=72.0 (+); log_uacr=3.8 (+)
+0.27862878163741034,High,age=76.0 (+); egfr=48.0 (+); log_uacr=5.8 (+)

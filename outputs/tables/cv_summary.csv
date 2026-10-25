@@ -1,0 +1,4 @@
+model,cv_auc,cv_auc_sd,best_params
+logreg,0.7651846624323688,0.07159721341762,"{""C"": 0.0081}"
+rf,0.7882201834862386,0.04483616885028251,"{""max_depth"": 4, ""max_features"": ""sqrt"", ""min_samples_leaf"": 30, ""n_estimators"": 252}"
+xgb,0.7833897906374971,0.04671038141639017,"{""colsample_bytree"": 0.6151, ""gamma"": 0.9984, ""learning_rate"": 0.0555, ""max_depth"": 2, ""min_child_weight"": 1, ""n_estimators"": 271, ""reg_alpha"": 5.7788, ""reg_lambda"": 80.883, ""subsample"": 0.9659}"

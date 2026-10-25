@@ -1,0 +1,21 @@
+patient,SEQN,risk,tier,feature,value,shap,effect
+highest_risk,11562,0.4424,High,age,80.0,0.063,raises risk
+highest_risk,11562,0.4424,High,pulse_pressure,145.0,0.033,raises risk
+highest_risk,11562,0.4424,High,dbp,48.0,0.029,raises risk
+highest_risk,11562,0.4424,High,log_uacr,5.73,0.023,raises risk
+highest_risk,11562,0.4424,High,sbp,193.0,0.021,raises risk
+median_risk,5860,0.0448,Intermediate,age,59.0,-0.019,lowers risk
+median_risk,5860,0.0448,Intermediate,log_uacr,4.63,0.011,raises risk
+median_risk,5860,0.0448,Intermediate,egfr,113.94,-0.011,lowers risk
+median_risk,5860,0.0448,Intermediate,albuminuria,1.0,0.007,raises risk
+median_risk,5860,0.0448,Intermediate,dbp,83.0,-0.006,lowers risk
+lowest_risk,28469,0.0058,Low,age,49.0,-0.014,lowers risk
+lowest_risk,28469,0.0058,Low,egfr,105.95,-0.009,lowers risk
+lowest_risk,28469,0.0058,Low,log_uacr,2.31,-0.009,lowers risk
+lowest_risk,28469,0.0058,Low,pulse_pressure,60.0,-0.006,lowers risk
+lowest_risk,28469,0.0058,Low,dbp,70.0,-0.005,lowers risk
+missed_event,24341,0.0208,Low,age,43.0,-0.016,lowers risk
+missed_event,24341,0.0208,Low,pulse_pressure,54.0,-0.007,lowers risk
+missed_event,24341,0.0208,Low,dbp,75.0,-0.006,lowers risk
+missed_event,24341,0.0208,Low,egfr,92.45,-0.004,lowers risk
+missed_event,24341,0.0208,Low,sbp,129.0,-0.004,lowers risk

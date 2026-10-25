@@ -1,0 +1,4 @@
+tier,n,events,observed_risk,ci_low,ci_high,mean_predicted_risk
+Low,210,5,0.0238,0.0102,0.0545,0.0219
+Intermediate,148,13,0.0878,0.0521,0.1445,0.0737
+High,83,14,0.1687,0.1032,0.2634,0.207

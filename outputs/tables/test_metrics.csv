@@ -1,0 +1,5 @@
+model,test_auc,auc_ci_low,auc_ci_high,pr_auc,brier,sensitivity,specificity,ppv,npv,threshold,cv_auc
+Logistic Regression,0.751,0.658,0.826,0.229,0.063,0.656,0.721,0.156,0.964,0.083,0.765
+Random Forest,0.774,0.695,0.848,0.251,0.063,0.719,0.699,0.158,0.969,0.083,0.788
+XGBoost,0.763,0.691,0.839,0.212,0.063,0.531,0.79,0.165,0.956,0.1,0.783
+Baseline: age only,0.704,0.604,0.814,0.187,0.064,0.594,0.675,0.125,0.955,0.086,

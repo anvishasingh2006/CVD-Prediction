@@ -1,0 +1,10 @@
+step,n,cv_deaths_within_horizon,excluded
+All participants in selected cycles,51623,1248,0
+Examined in MEC,51623,1248,0
+Age >= 30,21482,1236,30141
+Not pregnant,21045,1236,437
+Type 2 diabetes (self-report or HbA1c >= 6.5%),3353,362,17692
+Not probable type 1 (dx < 30 y and on insulin),3304,358,49
+"Mortality-linkage eligible, known cause of death",3129,358,175
+"Primary prevention (no prior CHF, CHD, angina, MI, stroke)",2205,161,924
+Complete 10-year follow-up (died or followed >= 120 months),2205,161,0
