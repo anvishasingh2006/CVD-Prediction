@@ -97,3 +97,4 @@ The five scripts were run end to end on synthetic files that mimic the NHANES fi
 
 ## Limitations
 Few hundred CV deaths at most; training ignores NHANES survey weights and clustering (not a nationally representative estimate); serum creatinine and urine albumin assays changed across cycles and are not bridged (eGFR/UACR are best treated as exploratory); linked mortality captures fatal CVD only; SHAP shows model behaviour, not causal effects; research use only.
+# CVD-Prediction
